@@ -1,3 +1,9 @@
+static const auto ____ = [] {
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
+    return nullptr;
+}();
+
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {

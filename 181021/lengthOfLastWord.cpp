@@ -11,6 +11,6 @@ public:
             if(s[i] == ' ' && count != 0)
                 return count;
         }
-        return count;
+        //return count;
     }
 };

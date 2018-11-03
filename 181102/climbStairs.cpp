@@ -12,7 +12,7 @@ public:
         }
         int total,OneStepBefore,TwoStepsBefore;
         int i;
-        OneStepBefore=2;
+        OneStepBefore=2; 
         TwoStepsBefore=1;
         total=OneStepBefore+TwoStepsBefore;
         for(i=0;i<n-3;i++){
